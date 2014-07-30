@@ -1,4 +1,4 @@
-//LuckyBlock mod by tombailey94; with credit to PlayerInDistress (http://www.minecraftforum.net/topic/2031111-164-lucky-block-drops-items-spawns-mobs-structures-and-more/) and NOAHZ (http://www.minecraftforum.net/topic/2174428-noahzdarkdiaminers-modscripts-new-darkdiamondminers-mods/)
+6//LuckyBlock mod by tombailey94; with credit to PlayerInDistress (http://www.minecraftforum.net/topic/2031111-164-lucky-block-drops-items-spawns-mobs-structures-and-more/) and NOAHZ (http://www.minecraftforum.net/topic/2174428-noahzdarkdiaminers-modscripts-new-darkdiamondminers-mods/)
 // version 0.0.4
 
 var goldId = 41;
@@ -195,6 +195,6 @@ function destroyBlock(x, y, z, side) {
 			}
 		}
 		
-		Level.destroyBlock(x,y,z,false); //destroy the gold block
+		Level.destroyBlock(x,y,z,true
+); //destroy the gold block
 	}
-}
